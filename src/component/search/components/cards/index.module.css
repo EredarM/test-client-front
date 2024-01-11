@@ -1,0 +1,22 @@
+.card__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 28px;
+}
+
+.sort__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.sort__label,
+.sort__selected {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}

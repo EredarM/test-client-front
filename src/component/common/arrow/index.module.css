@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 28px;
+    height: 28px;
+
+    background: var(--white);
+    filter: drop-shadow(2px 2px 12px rgba(0, 0, 0, 0.08));
+    border-radius: 50%;
+    position: absolute;
+
+    z-index: 10;
+    cursor: pointer;
+}
+
+.left {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}

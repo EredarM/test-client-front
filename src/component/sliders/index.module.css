@@ -1,0 +1,25 @@
+.section__sliders {
+    width: 100%;
+    background: var(--bg-gray);
+
+    padding: 40px 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        grid-template-rows: 364px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .wrapper {
+        grid-template-rows: 412px;
+    }
+}

@@ -1,0 +1,58 @@
+.btn,
+.btn__active {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn {
+    background: var(--btn-bg);
+    color: var(--white);
+}
+
+.btn__icon {
+    fill: #FFF;
+}
+
+.btn:hover {
+    background: var(--btn-bg-hover);
+}
+
+.btn:active {
+    background: var(--btn-bg-active);
+}
+
+.btn__active {
+    border-color: #144075;
+    background: #FFF;
+    color: #144075;
+}
+
+.btn__icon_active {
+    fill: #144075;
+}
+
+.btn__active:hover {
+    border-color: var(--btn-bg-hover);
+    color: var(--btn-bg-hover);
+}
+
+.btn__active:active {
+    border-color: var(--btn-bg-active);
+    color: var(--btn-bg-active);
+}
+
+.btn__active:hover > .btn__icon_active {
+    fill: var(--btn-bg-hover);
+}
+
+.btn__active:active > .btn__icon_active {
+    fill: var(--btn-bg-active);
+}
+
+.btn_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}

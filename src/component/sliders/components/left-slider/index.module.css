@@ -1,0 +1,14 @@
+.wrapper {
+    grid-column: auto / span 7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.wrapper__container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}

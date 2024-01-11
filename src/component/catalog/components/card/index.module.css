@@ -1,0 +1,41 @@
+.container {
+    padding: 16px;
+
+    border: 2px solid #F4F4F4;
+    border-radius: 16px;
+
+    grid-column: auto / span 1;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.title_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #696969;
+}

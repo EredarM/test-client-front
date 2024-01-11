@@ -1,0 +1,19 @@
+.nav {
+    margin-bottom: 40px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+    list-style: none;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8B8B8B;
+}

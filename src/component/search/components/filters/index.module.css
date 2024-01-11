@@ -1,0 +1,35 @@
+.btn {
+    width: 100%;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+    padding: 12px 54px;
+
+    background: var(--btn-bg);
+    border-radius: 4px;
+
+    cursor: pointer;
+    color: var(--white);
+}
+
+.list {
+    list-style: none;
+}
+
+.container__item:first-child {
+    border-top: 1px solid #ddd;
+}
+
+.container__item:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.btn:hover {
+    background: var(--btn-bg-hover);
+}
+
+.btn:active {
+    background: var(--btn-bg-active);
+}
